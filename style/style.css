@@ -1,0 +1,199 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.Home{
+    width: 100%;
+    height: 660px;
+    background-image: url('../images/events-heavenly-header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.eventOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.HomeOpenSlider{
+    width: 0px;
+    background-color: #414658;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.HomeOpenSlider a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+}
+.HomeOpenSlider a:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+.HomeOpenSlider .closeBtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 18px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#HomeMain{
+    margin-left: 0px;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#HomeMain h2{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+}
+#HomeMain p{
+    text-align: center;
+    margin: 0 0 10px;
+}
+#openBtn{
+    font-size:20px;
+    cursor:pointer
+}
+#Details{
+    padding: 100px 0;
+    margin: 0px auto;
+    width: 50%;
+}
+#Details h3{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+#Details div{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#Duration{
+    background-image: url('../images/invitation-2508607__340.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+.container {
+    padding: 100px 0px;
+}
+.tim{
+    padding: 50px;
+    border: 1px solid #fff;
+}
+#Contact{
+    margin-top: 100px;
+}
+.container {
+    padding: 100px 0px;
+}
+#Contact .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#Contact .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#Contact .con-info h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#Contact .con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+#Contact .icons {
+    margin-top: 50px;
+}
+#Contact .icons p {
+    margin-bottom: 35px;
+}
+#Contact .con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+#Contact .con-info .con-social {
+    margin-top: 60px;
+    color: #777;
+}
+#Contact i {
+    margin-right: 20px;
+    color: #777;
+}
+#Contact .red {
+    color: #D62E33 !important;
+}
+#Contact .con-info .con-social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#Contact .con-info .con-social i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+#Contact form input, #Contact form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#Contact form textarea {
+    height: 200px;
+    resize: vertical;
+}
+#char {
+    font-size: 20px;
+    color: #D62E33;
+}
+#Contact form button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
